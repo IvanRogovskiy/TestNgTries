@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" parallel="classes" thread-count="2" >
+
+    <test name="first">
+        <groups>
+            <run>
+<!--                <include name="unit"/>-->
+<!--                <include name="web"/>-->
+                <include name="smoke"/>
+
+            </run>
+        </groups>
+        <classes>
+            <class name="smoke.Test1"/>
+        </classes>
+    </test>
+
+<!--    <test name="second">-->
+<!--        <classes>-->
+<!--            <class name="AutoUni.DriverInit"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>

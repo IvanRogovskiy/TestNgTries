@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: regress.Test1
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.271 sec <<< FAILURE!
+first(regress.Test1)  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.AssertionError: expected [2] but found [1]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:907)
+	at org.testng.Assert.assertEquals(Assert.java:917)
+	at regress.Test1.first(Test1.java:11)
+

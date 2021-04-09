@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="33" started-at="2021-03-16T16:19:56 MSK" finished-at="2021-03-16T16:19:56 MSK">
+    <groups>
+      <group name="unit">
+        <method signature="Test1.first()[pri:0, instance:regress.Test1@55d56113]" name="first" class="regress.Test1"/>
+      </group> <!-- unit -->
+      <group name="web">
+        <method signature="Test1.second()[pri:0, instance:regress.Test1@55d56113]" name="second" class="regress.Test1"/>
+      </group> <!-- web -->
+    </groups>
+    <test name="first" duration-ms="33" started-at="2021-03-16T16:19:56 MSK" finished-at="2021-03-16T16:19:56 MSK">
+      <class name="regress.Test1">
+        <test-method status="PASS" signature="first()[pri:0, instance:regress.Test1@55d56113]" name="first" duration-ms="5" started-at="2021-03-16T16:19:56 MSK" finished-at="2021-03-16T16:19:56 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- first -->
+        <test-method status="PASS" signature="second()[pri:0, instance:regress.Test1@55d56113]" name="second" duration-ms="0" started-at="2021-03-16T16:19:56 MSK" finished-at="2021-03-16T16:19:56 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- second -->
+      </class> <!-- regress.Test1 -->
+    </test> <!-- first -->
+  </suite> <!-- Suite1 -->
+</testng-results>
