@@ -7,12 +7,26 @@
             <run>
 <!--                <include name="unit"/>-->
 <!--                <include name="web"/>-->
-                <include name="smoke"/>
+                <include name="ozon"/>
 
             </run>
         </groups>
         <classes>
-            <class name="smoke.Test1"/>
+            <class name="ozon.Test1"/>
+        </classes>
+    </test>
+
+    <test name="second">
+        <groups>
+            <run>
+                <!--                <include name="unit"/>-->
+                <!--                <include name="web"/>-->
+                <include name="yandex"/>
+
+            </run>
+        </groups>
+        <classes>
+            <class name="yandex.PictureDownloading"/>
         </classes>
     </test>
 

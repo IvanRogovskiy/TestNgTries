@@ -5,10 +5,10 @@
   <suite name="Default Suite" duration-ms="46" started-at="2021-03-16T16:30:54 MSK" finished-at="2021-03-16T16:30:55 MSK">
     <groups>
       <group name="unit">
-        <method signature="Test1.first()[pri:0, instance:smoke.Test1@d2cc05a]" name="first" class="smoke.Test1"/>
+        <method signature="Test1.first()[pri:0, instance:ozon.Test1@d2cc05a]" name="first" class="ozon.Test1"/>
       </group> <!-- unit -->
       <group name="web">
-        <method signature="Test1.second()[pri:0, instance:smoke.Test1@d2cc05a]" name="second" class="smoke.Test1"/>
+        <method signature="Test1.second()[pri:0, instance:ozon.Test1@d2cc05a]" name="second" class="ozon.Test1"/>
       </group> <!-- web -->
     </groups>
     <test name="testNgTry" duration-ms="46" started-at="2021-03-16T16:30:54 MSK" finished-at="2021-03-16T16:30:55 MSK">
@@ -18,20 +18,20 @@
           </reporter-output>
         </test-method> <!-- fourth -->
       </class> <!-- AutoUni.DriverInit -->
-      <class name="smoke.Test1">
-        <test-method status="PASS" signature="first()[pri:0, instance:smoke.Test1@d2cc05a]" name="first" duration-ms="5" started-at="2021-03-16T16:30:55 MSK" finished-at="2021-03-16T16:30:55 MSK">
+      <class name="ozon.Test1">
+        <test-method status="PASS" signature="first()[pri:0, instance:ozon.Test1@d2cc05a]" name="first" duration-ms="5" started-at="2021-03-16T16:30:55 MSK" finished-at="2021-03-16T16:30:55 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- first -->
-        <test-method status="PASS" signature="second()[pri:0, instance:smoke.Test1@d2cc05a]" name="second" duration-ms="1" started-at="2021-03-16T16:30:55 MSK" finished-at="2021-03-16T16:30:55 MSK">
+        <test-method status="PASS" signature="second()[pri:0, instance:ozon.Test1@d2cc05a]" name="second" duration-ms="1" started-at="2021-03-16T16:30:55 MSK" finished-at="2021-03-16T16:30:55 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- second -->
-        <test-method status="PASS" signature="third()[pri:0, instance:smoke.Test1@d2cc05a]" name="third" duration-ms="0" started-at="2021-03-16T16:30:55 MSK" finished-at="2021-03-16T16:30:55 MSK">
+        <test-method status="PASS" signature="third()[pri:0, instance:ozon.Test1@d2cc05a]" name="third" duration-ms="0" started-at="2021-03-16T16:30:55 MSK" finished-at="2021-03-16T16:30:55 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- third -->
-      </class> <!-- smoke.Test1 -->
+      </class> <!-- ozon.Test1 -->
     </test> <!-- testNgTry -->
   </suite> <!-- Default Suite -->
 </testng-results>

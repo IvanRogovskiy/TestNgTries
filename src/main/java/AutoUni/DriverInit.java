@@ -1,5 +1,6 @@
 package AutoUni;
 
+import AutoUni.config.ConfigLoader;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -17,6 +18,7 @@ public class DriverInit {
     public static final String baseUrl = "https://www.ozon.ru";
     public static final String expectedTitle = "OZON — интернет-магазин. Миллионы товаров по выгодным ценам";
     public static final String actualTitle = "";
+    public  static final ConfigLoader config = new ConfigLoader();
 
 
     @BeforeTest

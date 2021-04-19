@@ -1,4 +1,4 @@
-package smoke;
+package ozon;
 
 import AutoUni.DriverInit;
 import AutoUni.pages.FoundItemsPage;

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite1]">
-  <test thread-count="5" verbose="0" name="first(failed)">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite1]" parallel="classes">
+  <test thread-count="2" verbose="0" name="second(failed)" parallel="classes">
     <groups>
       <run>
-        <include name="unit"/>
+        <include name="yandex"/>
       </run>
     </groups>
     <classes>
-      <class name="regress.Test1">
+      <class name="yandex.PictureDownloading">
         <methods>
-          <include name="first"/>
+          <include name="openPage"/>
         </methods>
-      </class> <!-- regress.Test1 -->
+      </class> <!-- yandex.PictureDownloading -->
     </classes>
-  </test> <!-- first(failed) -->
+  </test> <!-- second(failed) -->
 </suite> <!-- Failed suite [Suite1] -->

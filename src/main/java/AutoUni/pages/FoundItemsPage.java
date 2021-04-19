@@ -23,7 +23,7 @@ public class FoundItemsPage {
     }
 
     public FoundItemsPage isOpened() {
-        Assert.assertTrue(new CommonHelper(driver).waitForPageToLoad());
+        Assert.assertTrue(new CommonHelper(driver).isPageLoaded());
         return this;
     }
 
